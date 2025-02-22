@@ -27,5 +27,10 @@ make -C ports/windows CROSS_COMPILE=i686-w64-mingw32-
 To build the container run the following command:
 
 ```bash
-docker build -t micropython/build-micropython-win-mingw .
+docker build -t josverlinde/build-micropython-win-mingw:1.0 .
 ```
+
+### TODO: publish to docker hub for micropython
+`docker build -t micropython/build-micropython-win-mingw .` 
+
+<!-- docker push micropython/build-micropython-win-mingw:1.0 -->
